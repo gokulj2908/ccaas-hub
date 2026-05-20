@@ -28,3 +28,30 @@
 ## AI calls
 1. Now like whatsapp, we try to record customer's query -> convert to text -> process with AI -> text to speech -> reply to customer on query
 2. Based on phone number, we also use user details here and use them accordingly in responses.
+
+## Buy Method Licenses (SCV + AWS Connect) (NO code)
+1. Refer P4 and P4.1 Interview Explanations
+
+## Amazon Connect 
+1. Youtube: Tech with Kobina (https://www.youtube.com/playlist?list=PLY48RGnTWqFE2BLAnaXp1aaNigHjQLQN2)
+2. User email: gokul.j@tonyshive.com
+3. Password: Gokul@6991
+4. Instance: https://aadhavi-support.my.connect.aws/
+5. Instance admin: gokul__j and same password as above
+6. **AWS** AccId: 558215002953 
+7. **AWS** AccName: Go Cool CX 
+
+# How to use Amazon connect in India
+1. AWS does not sell +91 numbers out of the box to standard retail accounts.
+2. To use Amazon Connect legally and successfully for an Indian business, you must follow the industry-standard enterprise pattern.
+3. Most Indian startups bypass this by using an AWS Partner / Managed Service Provider (MSP) in India (like Tata Communications, Minfy, or multi-cloud vendors).
+4. Since AWS cannot sell you +91 phone numbers directly due to TRAI regulations, you must source your Indian phone numbers from a licensed local telecom carrier.
+5. You purchase your business phone numbers (Local DIDs or a 1800 Toll-Free number) directly from Tata Communications, Airtel Business, or Jio.
+6. Wire the Logic for your E-Commerce Flow: Once your carrier bridges the numbers into your Connect instance, the telephony acts exactly like the tests you ran earlier. You can build a direct-to-queue e-commerce loop using AWS Lambda function.
+
+# Companies and their tools (Important)
+1. Ahaa OTT: Salesforce CRM + Amazon connect customer
+2. Elite insurance partners: Salesforce Service and marketing cloud + Five9
+3. Cookd: Freshchat, Moengage and clevertap (Notifications and messaging channels)
+4. Nexkauf: Native API + Amazon connect Customer (Duplicates Aadhavi CCaaS hub)
+5. Niva Bupa: Sprinklr
